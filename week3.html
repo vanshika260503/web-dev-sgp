@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <button onclick="ascend()">Ascending_Order</button>
+        <button onclick="descend()">Descending_Order</button>
+        <button onclick="alphabatical()">alphabatical order</button>
+        <p id="demo"></p>
+        <script>
+            var points = [4,3,5,1,10,2,22,12];
+            document.getElementById("demo").innerHTML = points;
+            function ascend()
+            {
+                points.sort(function(a,b){return a-b});
+                document.getElementById("demo").innerHTML = points;
+            }
+            function descend()
+            {
+                points.sort(function(a,b){return b-a});
+                document.getElementById("demo").innerHTML = points;
+            }
+            function alphabatical()
+            {
+                points.sort();
+                document.getElementById("demo").innerHTML=points;
+            }
+
+        </script>
+    </body>
+</html>
