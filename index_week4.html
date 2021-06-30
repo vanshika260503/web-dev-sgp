@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <header>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">About us</a>
+				<a href="#">Contact Us  </a>
+			</nav>
+        </header>
+
+
+
+
+        <div id="reg-form">
+            <h1 style="text-align: center; font-size: 30px;">Sing Up Form</h1>
+            <form>
+                <label for="mr">Mr.</label>
+                <input type="radio" name="prefix-choice" value="choice1">
+                <label for="ms.">Mrs.</label>
+                <input type="radio" name="prefix-choice" value="choice2">
+                <label for="mrs.">Miss</label>
+                <input type="radio" name="prefix-choice" value="choice3"><br>
+
+
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name"  placeholder="First Name" required><br><br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name"  placeholder="Last Name" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email"  placeholder="Email" required><br><br>
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone"  placeholder="Phone" required><br><br>
+
+
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter Password" required id="password"><br><br>
+                <label for="re-password">Confirm your password</label>
+                <input type="password" name="re-password" placeholder="Re-enter Password" required id="confirm_password"><br><br>
+
+
+                <label for="country">Country</label>
+                <select name="country" id="cars">
+                    <option value="india">India</option>
+                    <option value="nepal">U.S.A.</option>
+                    <option value="bhutan">China</option>
+                    <option value="lanka">Germany</option>
+                    <option value="others">Others</option><br>
+                </select><br><br>
+                <input type="checkbox" name="T&C" value="choice4" required>
+                <label for="T&C">I agree to the <a href="#">terms and conditions</a></label><br><br>
+
+
+                <button type="button">Sign up</button>
+                <input type="reset" value="Reset" style="color: rgb(186, 13, 221);">
+            </form>
+
+
+            
+
+        </div>
+        <style type="text/css">
+            div
+             {background-color: rgb(253, 195, 255);
+                font-family: serif;
+
+            }
+            footer {
+                background-color: rgb(167, 245, 245);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            
+            nav {
+            text-align: center;
+             background-color: rgba(228, 217, 214, 0.966); 
+             background-size: cover; 
+            padding: 20px;
+            }
+             </style>
+
+
+        <footer>
+            <p style="text-align: center;">Thank you . For more info about us, please visit <a href="#">click here.</a></p>
+        </footer>
+    </body>
+</html>
